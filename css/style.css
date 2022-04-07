@@ -18,33 +18,35 @@ body {
     margin: 0 auto;
     padding: 2em 1em;
   }
-  .clearfix{
-      content: "";
-      display: table;
-      clear: both;
-  }
+ 
 header h1{
       text-align: center;
       color: #E53170;
       font-family: system-ui;
 }
-div > p{
-    font-family: system-ui
-}
-.col{
+.wrapper{
     display: inline-block;
-    width: 350px;
-    height: 110px;
-    margin-top: 30px;
     background-color: #0F0E17;
+    color: white;
+    width: 300px;
+    height: 100px;
+    font-family: cursive;
 }
-
-.immagine1{
-    display: ;
-    width: 90px;
-    height: 90px;
+.Male1{
+    height: 100px;
     float: left;
 }
-div span{
-    float: right;
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.email{
+    color: aqua;
+}
+.second_section{
+    margin-top: 50px;
+}
+.first_section{
+    margin-top: 40px;
 }
